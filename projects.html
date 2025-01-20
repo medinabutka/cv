@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>My Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="global.css" />
+        <script src="global.js"></script>
+
+        <style>
+            main {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 50px 50px;
+                row-gap: 50px;
+            }
+
+            section {
+                display: flex;
+                flex-direction: column;
+                width: 45%;
+                justify-content: center;
+            }
+
+            iframe {
+                height: 400px;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            h2 a {
+                color: black;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav_menu">
+                    <li><a href="about-me.html" target="_blank">About me</a></li>
+                    <li><a href="projects.html" target="_self">Projects</a></li>
+                    <li><a href="education-and-experience.html" target="_blank">Education and experience</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 style="text-align: center; color: black; padding-top: 100px;">Projektet e mia</h1>
+
+        <main>
+            <section>
+                <iframe src="https://www.wikipedia.org/" name="Webi i BSS"></iframe>
+                <h2><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></h2>
+            </section>
+
+            <section>
+                <iframe src="https://www.learnarabiconline.com/arabic-alphabet/8-letters-daal-dhaal/" name="Webi i BSS"></iframe>
+                <h2><a href="https://www.learnarabiconline.com/arabic-alphabet/8-letters-daal-dhaal/" target="_blank">Learn Arabic Online</a></h2>
+            </section>
+
+            <section>
+                <iframe src="https://www.quran.com" name="Webi i BSS"></iframe>
+                <h2><a href="https://www.quran.com" target="_blank">Quran</a></h2>
+            </section>
+
+            <section>
+                <iframe src="https://example.com" name="Webi i BSS"></iframe>
+                <h2><a href="https://example.com" target="_blank">Example</a></h2>
+            </section>
+        </main>
+    </body>
+</html>
